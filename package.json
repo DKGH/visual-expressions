@@ -1,8 +1,8 @@
 {
-  "name": "mantine-vite-template",
-  "private": true,
+  "name": "visual-expressions",
+  "private": false,
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -23,6 +23,8 @@
   "dependencies": {
     "@mantine/core": "8.3.18",
     "@mantine/hooks": "8.3.18",
+    "@tabler/icons-react": "^3.41.1",
+    "manifold-3d": "^3.4.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.4"
@@ -60,5 +62,5 @@
     "vite": "^8.0.0",
     "vitest": "^4.1.0"
   },
-  "packageManager": "yarn@4.13.0"
+  "packageManager": "npm@11.12.1"
 }

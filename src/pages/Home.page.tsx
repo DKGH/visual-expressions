@@ -1,11 +1,5 @@
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
-import { Welcome } from '../components/Welcome/Welcome';
+import { UnderConstruction } from '@/components/UnderConstruction/UnderConstruction';
 
 export function HomePage() {
-  return (
-    <>
-      <Welcome />
-      <ColorSchemeToggle />
-    </>
-  );
+  return <UnderConstruction />;
 }
