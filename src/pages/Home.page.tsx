@@ -1,5 +1,5 @@
-import { UnderConstruction } from '@/components/UnderConstruction/UnderConstruction';
+import { Cube } from '@/components/Cube/Cube';
 
 export function HomePage() {
-  return <UnderConstruction />;
+  return <Cube />;
 }
